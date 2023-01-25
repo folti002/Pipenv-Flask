@@ -12,3 +12,8 @@ def hello_world():
 def hi():
   user_name = request.args.get("userName", "unknown")
   return render_template('main.html', user=user_name) 
+
+@app.route('/BRC', methods=['GET'])
+def BRC():
+  user_name = request.args.get("userName", "unknown")
+  return render_template('index.html', user=user_name)
