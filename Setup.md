@@ -13,4 +13,4 @@ pipenv --python <version>
 
 1. Flask is light-weight and easy to learn
 
-1. Static folder has 
+1. Static folder has images, CSS, JS, static files that don't need input to work
